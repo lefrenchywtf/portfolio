@@ -87,42 +87,66 @@
             <div class="subheader-text">Project Details</div>
             <div class="project-details-content">
                 <div class="body-text">
-                    I'm currently working on a working demo, the game runs with the steam online subsystem.
-                    I had to make some procedural animations (shoot, walk, run and idle) with a lack of first person animations, while third person animations, sounds and particules correctly replicate.
-                    My first gamemode will be a basic team deathmatch, almost everything is done since i had to make the steam online work first, I plan on including an objective based mode later.
-                    Players will be able to play different guns, and equip different character skins before joining the game
+                    In order to keep working on games while looking for an opportunity, but also to learn new things, I decided to make an online shooter game. It's a genre that i really like and working
+                    on multiplayer features is a great idea to learn how it works and learn the basics through Unreal's tools.
                 </div>
-                <div class="body-text">Once my base will be good enough, I want to add a team deathmatch gamemode to be able to playtest the online as quickly as possible</div>
+                <div class="body-text">
+                    I'm in a pretty advanced state of my project. The game uses the steam online subsystem to host and join lobbies, Which also means i can use Steam names and profile pictures for HUD usages <br />
+                    Due to the lack of first person animations, i made some procedural animation for shooting, walking/running, aiming down sights and also the idle. I also had to procedurally move the left hand to be placed
+                    correctly on the part of the gun i want it placed on. <br />
+                    Players can use their primary and secondary weapons, which have recoil and (if you hipfire) spread that increases the more you shoot. <br />
+                    My first gamemode is a classic team deathmatch mode, which can be launched through host menu, with some settings like the map or maximum amount of players. You can also join a game with the server browser. <br />
+                </div>
+                <div class="body-text">
+                    I'm currently working on having a demo, with letting players customize their settings to be more confortable ingame, keybinds and sensitivity work already. Once my demo will be playable to me, I can playtest with a couple friends
+                    in order to polish some things.
+                </div>
             </div>
         </div>
         <!-- IMAGE GALLERY -->
         <div id="project-gallery">
             <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
-            <div class="subheader-text"><!--Image Gallery--></div>
+            <div class="subheader-text">Image Gallery</div>
             <div class="project-gallery-content">
                 <!--
-              TODO
+      TODO
 
-              This is where the images in the gallery live. Here's a simple gallery image for you to copy:
+      This is where the images in the gallery live. Here's a simple gallery image for you to copy:
 
-              Full Width Image:
+      Full Width Image:
 
-                <div class="gallery-image-container">
-                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
-                  <span class="image-caption">IMAGE_CAPTION</span>
-                </div>
+        <div class="gallery-image-container">
+          <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+          <span class="image-caption">IMAGE_CAPTION</span>
+        </div>
 
-              Half Width Image:
+      Half Width Image:
 
+        <div class="gallery-image-container half-width">
+          <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+          <span class="image-caption">IMAGE_CAPTION</span>
+        </div>
+
+      - To add an image to the this area, copy one of the above, paste it below this comment, and change the following:
+          - IMAGE_NAME: the name of the image file in assets/images
+          - IMAGE_CAPTION: to the caption of the image
+    -->
                 <div class="gallery-image-container half-width">
-                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
-                  <span class="image-caption">IMAGE_CAPTION</span>
+                    <img src="../assets/images/fpsgif.gif" class="gallery-image">
+                    <span class="image-caption">The recoil and spread on an AK</span>
                 </div>
-
-              - To add an image to the this area, copy one of the above, paste it below this comment, and change the following:
-                  - IMAGE_NAME: the name of the image file in assets/images
-                  - IMAGE_CAPTION: to the caption of the image
-            -->
+                <div class="gallery-image-container half-width">
+                    <img src="../assets/images/fpsgif2.gif" class="gallery-image">
+                    <span class="image-caption">ADS and killing an other player</span>
+                </div>
+                <div class="gallery-image-container">
+                    <img src="../assets/images/fps2.png" class="gallery-image">
+                    <span class="image-caption">Death screen, showing the killfeed for everyone but also the death info for the killed player</span>
+                </div>
+                <div class="gallery-image-container">
+                    <img src="../assets/images/fps3.png" class="gallery-image">
+                    <span class="image-caption">The keybinds page, where you can also change de sensitivity and how sprint and crouch should behave</span>
+                </div>
             </div>
         </div>
     </div>
